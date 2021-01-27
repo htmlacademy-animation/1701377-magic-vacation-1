@@ -1888,7 +1888,7 @@ img {
           left: 0;
           right: 0;
           background-color: #5f458c; } }
-    .page-header__menu a.active::after {
+    .page-header__menu a.active::after, .page-header__menu a:hover::after {
       width: 100%;
       right: auto;
       left: 0; }
