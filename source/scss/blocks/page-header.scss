@@ -266,7 +266,8 @@
       }
     }
 
-    &.active {
+    &.active,
+    &:hover {
       &::after {
         width: 100%;
         right: auto;
