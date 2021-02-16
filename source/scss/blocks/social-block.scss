@@ -80,7 +80,6 @@
     &::before {
       width: 112.5%;
       height: 112.5%;
-      transition-delay: 0s;
     }
   }
 
@@ -90,7 +89,6 @@
 
     &::before {
       border-color: $c-purple;
-      transition-delay: 0s;
     }
 
     & + .social-block__list {
@@ -108,7 +106,6 @@
       height: 100%;
       background-color: $c-purple;
       border-color: $c-purple;
-      transition-delay: 0s;
     }
   }
 }
