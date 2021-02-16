@@ -21,3 +21,11 @@ social();
 
 const fullPageScroll = new FullPageScroll();
 fullPageScroll.init();
+
+document.addEventListener(`DOMContentLoaded`, () => {
+  document.body.classList.add(`js-loaded`, `js-transition`);
+
+  setTimeout(() => {
+    document.body.classList.remove(`js-transition`);
+  }, 1000);
+});
